@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html, body {
+    width: 100% !important;
+    
+}
+
+body {
+    background: url("http://orig13.deviantart.net/ed8c/f/2011/060/0/8/a_sky_background_by_ribozurai-d3aq5d4.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        width: 100%;
+}
+
+.container-custom {
+    margin-bottom: 136.67px;
+}
+
+.logo-section {
+    text-align: center;
+    margin-top: 25px;
+    margin: auto;
+}
+
+.logo {
+    font-family: SuperMarioGalaxy, sans-serif;
+    font-size: 6em;
+    color: #FF0000;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 1.2em;
+    letter-spacing: .2em;
+}
+
+#mario {
+    width: 65%;
+    min-width: 175px;
+    max-width: 210px;
+    margin: auto;
+}
+
+.baddies {
+    width: 900px;
+    margin: auto;
+}
+
+.box {
+    text-align: center;
+    background-color: rgba(255, 255, 255, .5);
+    width: 270px;
+    height: 250px;
+    /*padding: 10px 20px;*/
+    border: 1.5px solid #2A9FFE;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+#goomba {
+    width: 130px;
+}
+
+#cheep {
+    width: 180px;
+}
+
+#bobomb {}
+
+.textInBaddie {
+    font-family: SuperMarioGalaxy, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    line-height: 18px;
+}
+
+.textInBaddieBobomb {
+    padding-top: 15px;
+}
+
+.textInBaddieGoomba {
+    padding-top: 15px;
+}
+
+.textInBaddieCheep {}
+
+.tally {
+    font-family: SuperMarioGalaxy, sans-serif;
+    text-align: center;
+    margin: 15px 0px 0px 14px;
+}
+
+.input {
+    max-width: 390px;
+    margin: auto;
+}
+
+.output {
+    font-family: SuperMarioGalaxy, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#fullTotal {
+    font-family: SuperMarioGalaxy, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-custom {
+    margin-top: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #004BC1;
+    color: white;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    padding: 5px;
+    margin: 0 20px;
+    font-family: SuperMarioGalaxy, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+    font-weight: 300px;
+}
+
+@media (max-width: 991px) {
+    .box {
+        margin-top: 15px !important;
+    }
+}
+
+@media (max-width: 742px) {
+    .container-custom {
+        margin-bottom: 170px;
+    }
+}

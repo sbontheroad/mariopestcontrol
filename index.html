@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mario Pest Control</title>
+    <meta name="viewport" content="width=device-width">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+        <div class="container-fluid container-custom">
+            <div class="logo-section">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12 col-xs-12 col-md-offset-2">
+                        <h1 class="logo">Mario</h1>
+                        <h1 class="logo">Pest</h1>
+                        <h1 class="logo">Control</h1>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div><img id="mario" src="http://www.mariowiki.com/images/0/0a/Mariogood.PNG"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="baddies">
+
+                    <div class="col-xs-12 col-md-4 col-md-offset-0">
+                        <div class="box"><img class="baddieImage" id="bobomb" src="Bob-Omb160.png">
+                            <div class="textInBaddieBobomb textInBaddie">
+                                <p>Bob-ombs!</p>
+                                <p>8 coins</p>
+                            </div>
+                        </div>
+                        <div class="tally">
+                            <div>How many Bob-ombs do you have?</div>
+                            <input class="form-control input" id="bobombInput" type="number">
+                            <button class="btn btn-danger btn-custom btn-bobomb">click here</button>
+                        </div>
+                        <div class="output" id="bobombTotal"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-md-offset-0">
+                        <div class="box"><img class="baddieImage" id="goomba" src="https://vignette2.wikia.nocookie.net/fantendo/images/4/4e/Goomba.png/revision/latest?cb=20160623150623">
+                            <div class="textInBaddieGoomba textInBaddie">
+                                <p>Goombas</p>
+                                <p>12 coins</p>
+                            </div>
+                        </div>
+                        <div class="tally">
+                            <div>How many Goombas do you have?</div>
+                            <input class="form-control input" id="goombaNum" type="number">
+                            <button class="btn btn-danger btn-custom btn-goomba">click here</button>
+                        </div>
+                        <div class="output" id="goombaTotal"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-md-offset-0">
+                        <div class="box"><img class="baddieImage" id="cheep" src="https://vignette2.wikia.nocookie.net/fantendo/images/4/46/Cheep-Cheep_cool.png/revision/latest?cb=20111118123743">
+                            <div class="textInBaddie textInBaddieCheep">
+                                <p>Cheep-cheeps</p>
+                                <p>11 coins</p>
+                            </div>
+                        </div>
+                        <div class="tally">
+                            <div>How many Cheep-Cheeps do you have?</div>
+                            <input class="form-control input" id="cheepsInput" type="number">
+                            <button class="btn btn-danger btn-custom btn-cheep">click here</button>
+                        </div>
+                        <div class="output" id="cheepTotal"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="fullTotal">
+                    
+                </div>
+            </div>
+        </div>
+        <footer class="navbar-fixed-bottom ">
+            <div class="row">
+                <div class="col-md-12 contact">
+                    <ul class="list-inline">
+                        <li>mariopestcontrol.com</li>
+                        <li>mario@mariopestcontrol.com</li>
+                        <li>55 Main Street, Mushroom Kingdom, BC</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
